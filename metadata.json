@@ -1,0 +1,5 @@
+{
+  "name": "Floating Contacts",
+  "description": "A modern, single-page contact list where contacts appear as draggable floating avatars.",
+  "requestFramePermissions": []
+}

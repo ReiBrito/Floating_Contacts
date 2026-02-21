@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS contacts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  phone VARCHAR(20),
+  whatsapp VARCHAR(20),
+  email VARCHAR(100),
+  company VARCHAR(100),
+  notes TEXT,
+  photo LONGTEXT,
+  pos_x INT DEFAULT 100,
+  pos_y INT DEFAULT 100,
+  border_color VARCHAR(20) DEFAULT '#4CAF50',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
